@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f5faff;
+    color: #1f1f1f;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo {
+    font-size: 1.3rem;
+    color: #005b8f;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #005b8f;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0077b6, #023e8a);
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: #023e8a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1.8rem;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #caf0f8;
+}
+
+/* SECCIONES */
+.section {
+    padding: 4rem 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #005b8f;
+}
+
+#contact p {
+    margin-top: 0.8rem;   /* separa ligeramente cada línea */
+    margin-left: 0.8rem;  /* agrega margen horizontal para que no quede pegado */
+}
+/* TARJETAS */
+.cards {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    border-left: 6px solid #0077b6;
+}
+
+.card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #023e8a;
+    color: white;
+    margin-top: 2rem;
+}
