@@ -151,3 +151,15 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.img-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.small-img {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
